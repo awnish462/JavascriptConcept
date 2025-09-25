@@ -5,9 +5,9 @@ const iterable = {
     return {
       next() {
         return { value: "item", done: false };
-      }
+      },
     };
-  }
+  },
 };
 
 const iterableObj = {
@@ -25,8 +25,8 @@ const iterableObj = {
   },
 };
 
-console.log(iterableObj)
+console.log(iterableObj);
 
-for (const item of iterableObj){
-    console.log(item)
+for (const item of iterableObj) {
+  console.log(item);
 }
